@@ -53,7 +53,7 @@
  .top-menu {
      display: flex;
      flex-wrap: wrap;
-     padding: 0 375px 0 375px;
+padding: 0 350px 0 350px;
      min-height: 40px;
      background-color: #191919;
      color: #707070;
@@ -175,7 +175,7 @@
      flex-wrap: wrap;
      justify-content: space-between;
      align-items: baseline;
-     padding: 0 365px 0 370px;
+     padding: 0 350px 0 350px;
      color: #ffffff;
      text-transform: uppercase;
 }
@@ -210,9 +210,10 @@
      border-left: 2px solid #ffffff;
      cursor: pointer;
 }
-.nav-item:hover {
-  margin-bottom: -4px;
+.nav-item:focus{
+  outline: none;
   border-bottom: 4px solid #ff4081;
+  margin-bottom: -4px;
 }
  .nav-pictograms a{
      display: block;
@@ -308,7 +309,7 @@
  .sort {
      display: flex;
      min-height: 60px;
-     padding: 16px 380px 0 380px;
+     padding-top: 16px;
      background-color: #ffffff;
      border-bottom: 2px solid #dddddd;
      margin-bottom: 30px;
