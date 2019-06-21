@@ -53,7 +53,7 @@
  .top-menu {
      display: flex;
      flex-wrap: wrap;
-padding: 0 350px 0 350px;
+width: 1000px;
      min-height: 40px;
      background-color: #191919;
      color: #707070;
