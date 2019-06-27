@@ -23,6 +23,9 @@
 }
  .container {
      width: 1170px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
      margin: 0 auto;
 }
  a {
@@ -52,8 +55,6 @@
 }
  .top-menu {
      display: flex;
-     flex-wrap: wrap;
-width: 1000px;
      min-height: 40px;
      background-color: #191919;
      color: #707070;
@@ -117,7 +118,7 @@ width: 1000px;
 }
  .header-login-lang {
      display: flex;
-     margin-left: auto;
+
 }
  .sign-in {
      display: flex;
@@ -138,8 +139,8 @@ width: 1000px;
      content: "";
      background-color: #707070;
      position: absolute;
-     top: 10px;
-     right: -23px;
+     top: 0;
+     right: -25px;
      width: 1px;
      height: 20px;
 }
@@ -161,7 +162,7 @@ width: 1000px;
      content: "";
      position: absolute;
      transform: rotate(-45deg);
-     top: 12px;
+     top: 3px;
      right: 10px;
      width: 10px;
      height: 10px;
@@ -175,7 +176,7 @@ width: 1000px;
      flex-wrap: wrap;
      justify-content: space-between;
      align-items: baseline;
-     padding: 0 350px 0 350px;
+
      color: #ffffff;
      text-transform: uppercase;
 }
@@ -239,7 +240,7 @@ width: 1000px;
 }
  .title {
      position: relative;
-     padding: 140px 375px 60px 380px;
+     padding: 140px 0 60px 0;
      color: #ffffff;
      text-align: center;
 }
@@ -319,6 +320,7 @@ width: 1000px;
      display: flex;
      list-style: none;
      margin: 0;
+
      padding: 0;
 }
  .sort-button {
