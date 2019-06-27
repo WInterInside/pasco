@@ -22,10 +22,10 @@
      font-family: 'Montserrat', sans-serif;
 }
  .container {
-     width: 1170px;
      display: flex;
-     align-items: center;
      justify-content: space-between;
+     width: 1170px;
+     align-items: center;
      margin: 0 auto;
 }
  a {
@@ -64,7 +64,6 @@
 }
  .social-icon {
      display: flex;
-     align-items: center;
      list-style: none;
      padding: 0;
      margin: 0;
@@ -118,7 +117,6 @@
 }
  .header-login-lang {
      display: flex;
-
 }
  .sign-in {
      display: flex;
@@ -145,7 +143,6 @@
      height: 20px;
 }
  .lang-item {
-     display: flex;
      display: flex;
      position: relative;
      align-items: center;
@@ -179,6 +176,9 @@
 
      color: #ffffff;
      text-transform: uppercase;
+}
+.main-menu h1 {
+  margin-right: 30px;
 }
  .main-menu ul {
      display: flex;
@@ -310,7 +310,6 @@
  .sort {
      display: flex;
      min-height: 60px;
-     padding-top: 16px;
      background-color: #ffffff;
      border-bottom: 2px solid #dddddd;
      margin-bottom: 30px;
@@ -320,7 +319,7 @@
      display: flex;
      list-style: none;
      margin: 0;
-
+     margin-right: 300px;
      padding: 0;
 }
  .sort-button {
@@ -336,12 +335,11 @@
 }
  .sort h2,
  .sort li {
-     margin-right: 33px;
      font-size: 16px;
      line-height: 27px;
 }
  .sort li {
-     margin-right: 15px;
+
 }
  .articles {
      margin-left: 50px;
