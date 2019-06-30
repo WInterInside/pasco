@@ -28,6 +28,9 @@
      align-items: center;
      margin: 0 auto;
 }
+.main-container {
+  display: flex;
+}
  a {
      text-decoration: none;
 }
@@ -47,7 +50,7 @@
      overflow: hidden;
 }
  aside {
-     display: none;
+
 }
  .desctop-header {
      background-image: url("../img/index/heade-bg.jpg");
@@ -337,9 +340,6 @@
  .sort li {
      font-size: 16px;
      line-height: 27px;
-}
- .sort li {
-
 }
  .articles {
      margin-left: 50px;
