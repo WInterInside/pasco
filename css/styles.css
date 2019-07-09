@@ -339,19 +339,17 @@
      line-height: 27px;
 }
 
-.main-container {
-  display: flex;
-}
-
-.main-container .container {
-  align-items: flex-start;
-}
-
 .articles {
 margin-right:40px;
 }
 
 .slidebar {
+position: sticky;
+top: 0;
+display: flex;
+flex-direction: column;
+align-self: flex-start;
+
 padding: 20px;
 background-color: white;
 }
