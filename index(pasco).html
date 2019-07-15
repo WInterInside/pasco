@@ -477,7 +477,7 @@
             <!--end of show-more -->
         </section>
 
-        <aside class="slidebar" title="slidebar for Pasco">
+        <aside class="slidebar">
 
             <div class="aside-search">
                 <form action="https://echo.htmlacademy.ru" method="get">
@@ -486,23 +486,50 @@
                 </form>
             </div>
             <!--end of aside-search -->
-            <div class="aside-categories">
-                <ul>
-                    <li><a href="#">Photography</a></li>
-                    <li><a href="#">Illustration</a></li>
-                    <li><a href="#">Graphic Design</a></li>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Videography</a></li>
-                </ul>
-            </div>
-            <!--end of aside-categories -->
+
+
+
+<div class="aside-table">
+            <table class="aside-categories">
+                <caption class="visually-hidden">Aside-categories</caption>
+                <tr>
+                    <th>Categories</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><a href="#">Photography</a></td>
+                    <td>195</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Illustration</a></td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Graphic Design</a></td>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Web Design</a></td>
+                    <td>220</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Videography</a></td>
+                    <td>17</td>
+                </tr>
+              </table>
+            </div>  <!--end of aside-categories -->
 
             <section class="aside-subscribe">
+              <div class="subscribe-form">
+                <h3>Subscribe</h3>
                 <form action="https://echo.htmlacademy.ru" method="get">
-                    <input type="text" name="name" placeholder="Igor Ten">
-                    <input type="text" name="email" placeholder="email@aderess.com">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" placeholder="Igor Ten">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" placeholder="email@aderess.com">
                     <button class="button blue" type="submit">Subscribe</button>
                 </form>
+              </div>
                 <p>---- or ----</p>
                 <ul class="social-icon">
                     <li class="social-icon-item"><a href="#">Facebook</a></li>
