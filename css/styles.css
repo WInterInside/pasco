@@ -344,8 +344,7 @@ margin-right:40px;
 }
 
 .slidebar {
-position: sticky;
-top: 0;
+
 display: flex;
 width: 684px;
 flex-direction: column;
@@ -475,17 +474,23 @@ flex-wrap: nowrap;
       box-shadow: none;
           border: none;
 }
-.socia-subscribe {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.social-subscribe  {
+      width: 268px;
+      min-height: 100px;
+      padding: 0;
+      margin: 0;
+
+      list-style: none;
+display: flex;
+justify-content:space-around;
+
 }
-.social-subscribe span {
-  position: relative;
-  margin-left: 125px;
+span {
+position: relative;
+margin-left: 130px;
 }
-.social-subscribe span::before,
-.social-subscribe span::after {
+span::before,
+span::after {
   content: "";
   position: absolute;
   width: 110px;
@@ -493,9 +498,25 @@ flex-wrap: nowrap;
   background-color: black;
   top: 9px;
 }
-.social-subscribe span::before {
+span::before {
   left: 30px;
 }
-.social-subscribe span::after {
+span::after {
   right: 30px;
+}
+
+.social-subscribe .social-icon-item a{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-right: 0;
+    background-color: blue;
+}
+
+.tumbler {
+  background-repeat: no-repeat;
+  background-image: url("../img/index/tumbler-logo.png");
+  background-position: center;
 }
