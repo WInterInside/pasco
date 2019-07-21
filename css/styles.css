@@ -542,7 +542,7 @@
  .widget-post:last-child {
      border-bottom: none;
 }
- .comments-of-article {
+ .widget-post .comments-of-article {
      position: absolute;
      top: 0;
      right: 0;
@@ -577,7 +577,7 @@
  .aside-tags .tags {
      width: 270px;
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      flex-wrap: wrap;
      list-style: none;
      padding: 0;
@@ -595,4 +595,3 @@
      margin-bottom: 10px;
      border-radius: 7px;
 }
- 
