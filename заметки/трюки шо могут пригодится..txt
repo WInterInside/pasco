@@ -1,5 +1,0 @@
-прокрутки 
-https://css-tricks.com/practical-css-scroll-snapping/
-
-всякие плюшки : футер, прокрутка, колонки картинок, увеличение при наведении.
-https://proglib.io/p/8-css-tricks/
