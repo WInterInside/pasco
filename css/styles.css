@@ -857,6 +857,22 @@ img {
     font-size: 14px;
 }
 
+.column-articles .article-designations,
+.row-articles .article-designations{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.column-articles .play-button ,
+.row-articles .play-button {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 25%;
+    left: 45%;
+}
+
 .column-articles-item {
     display: flex;
     height: 165px;
@@ -879,7 +895,9 @@ img {
     display: flex;
     margin-bottom: 50px;
 }
-
+.row-articles-item {
+  margin-right: 20px;
+}
 .row-articles h1,
 .row-articles p {
     padding: 0;
