@@ -408,7 +408,7 @@ img {
     padding-top: 23px;
     padding-left: 40px;
     border-radius: 4px 4px;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .aside-search {
@@ -448,7 +448,7 @@ img {
     flex-direction: row;
     padding: 0;
     margin: 0;
-    margin-bottom: 10px;
+
     list-style: none;
 }
 
@@ -773,7 +773,7 @@ img {
     top: 40%;
     width: 35px;
     height: 35px;
-    background-color: white;
+    background-color: #ffffff;
     border: 1px solid gray;
     cursor: pointer;
 }
@@ -975,7 +975,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 600px;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .article-wraper h1,
@@ -1032,7 +1032,7 @@ img {
     flex-direction: column;
     width: 260px;
 
-    background-color: white;
+    background-color: #ffffff;
 }
 .row-articles-2 .row-articles-item {
     width: 400px;
@@ -1065,7 +1065,7 @@ img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: white;
+    background-color: #ffffff;
     -webkit-box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 1);
     box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 1);
@@ -1092,4 +1092,63 @@ img {
     width: 15px;
     height: 3px;
     background-color: blue;
+}
+
+.subscribe {
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 200px;
+  background-color: black;
+  background-image: url("../img/index/subscribe-bg.jpg");
+}
+.subscribe-cont .subscribe-form {
+  display: flex;
+}
+.subscribe-cont {
+  min-height: 45px;
+  justify-content: space-around;
+}
+.subscribe h2{
+font-size: 42px;
+line-height: 35px;
+font-weight: bold;
+color: #ffffff;
+margin: 0;
+}
+.subscribe input,
+.subscribe button {
+margin: 0;
+min-height: 45px;
+border-radius: 20px 20px;
+}
+.subscribe-cont .subscribe-form input[type=text]  {
+  width: 200px;
+  background-color: transparent;
+  opacity: 0.5;
+  color: white;
+  border: 1px solid #ffffff;
+  padding-left: 30px;
+  margin-right: 20px;
+}
+.subscribe button {
+  width: 140px;
+      box-shadow: 0 1px 6px #303f9f;
+}
+.subscribe input[type=text]::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+.subscribe input[type=text]::-moz-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+/* Firefox 19+ */
+.subscribe input[type=text]:-moz-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+/* Firefox 18- */
+.subscribe input[type=text]:-ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
 }
