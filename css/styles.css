@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
      -webkit-box-sizing: inherit;
      box-sizing: inherit;
 }
@@ -295,7 +297,9 @@
      background-image: url("../img/index/heart-icon.png");
      background-position: left;
 }
- .likes, .comments, .time {
+ .likes,
+ .comments,
+ .time {
      margin-right: 20px;
      padding-left: 25px;
      opacity: 0.5;
@@ -329,7 +333,8 @@
      border: 1px solid #3f51b5;
      color: #3f51b5;
 }
- .sort h2, .sort li {
+ .sort h2,
+ .sort li {
      font-size: 16px;
      line-height: 27px;
      margin-bottom: 10px;
@@ -350,12 +355,14 @@
      border-radius: 4px 4px;
      background-color: #ffffff;
 }
- .aside-search {
+ .aside-search,
+ .footer-search {
      display: flex;
      width: 269px;
      position: relative;
 }
- .aside-search input[type=text] {
+ .aside-search input[type=text],
+ .footer-search input[type=text]{
      height: 45px;
      width: 268px;
      padding-left: 20px;
@@ -364,7 +371,8 @@
      border-radius: 28px 28px;
      border: none;
 }
- .aside-search button[type=submit] {
+ .aside-search button[type=submit],
+ .footer-search button[type=submit]{
      position: absolute;
      top: 5px;
      right: 5px;
@@ -378,7 +386,8 @@
      background-position: center;
      border-radius: 28px 28px;
 }
- .instagram-list, .flickr-list {
+ .instagram-list,
+ .flickr-list {
      display: flex;
      flex-direction: row;
      justify-content: space-between;
@@ -398,10 +407,14 @@
      margin-top: 10px;
      margin-bottom: 20px;
 }
- .aside-categories tr:hover, .aside-categories a:hover {
+ .aside-categories tr:hover,
+ .aside-categories a:hover {
      color: #ff4081;
 }
- .aside-categories th, .subscribe-form h3, .tab-post-widget h3, .aside-tags h3 {
+ .aside-categories th,
+ .subscribe-form h3,
+ .tab-post-widget h3,
+ .aside-tags h3 {
      width: 268px;
      text-transform: uppercase;
      color: #3f51b5;
@@ -420,10 +433,12 @@
  .aside-categories tr:last-child td {
      border-bottom: none;
 }
- .aside-categories td:first-child, .aside-categories th:first-child {
+ .aside-categories td:first-child,
+ .aside-categories th:first-child {
      text-align: left;
 }
- .aside-categories td:last-child, .aside-categories th:last-child {
+ .aside-categories td:last-child,
+ .aside-categories th:last-child {
      text-align: right;
 }
  .subscribe-form {
@@ -435,7 +450,9 @@
      font-weight: bold;
      margin-right: 200px;
 }
- .subscribe-form input {
+ .subscribe-form input,
+ .news-letter-form input,
+ .news-letter-form textarea {
      width: 268px;
      margin-right: 100px;
      margin-top: 10px;
@@ -454,14 +471,12 @@
      color: #000000;
      opacity: 0.3;
      font-size: 16px;
-     line-height: 36px;
 }
 /* Firefox 19+ */
  :-moz-placeholder {
      color: #000000;
      opacity: 0.3;
      font-size: 16px;
-     line-height: 36px;
 }
 /* Firefox 18- */
  :-ms-input-placeholder {
@@ -470,10 +485,12 @@
      font-size: 16px;
      line-height: 36px;
 }
- .subscribe-form input[id="email"] {
+ .subscribe-form input[id="email"]{
      margin-bottom: 25px;
 }
- .subscribe-form button, .widget-buttons button {
+ .subscribe-form button,
+ .widget-buttons button,
+ .news-letter-form button {
      display: inline-block;
      vertical-align: middle;
      width: 268px;
@@ -498,7 +515,8 @@
      position: relative;
      margin-left: 130px;
 }
- .or::before, .or::after {
+ .or::before,
+ .or::after {
      content: "";
      position: absolute;
      width: 110px;
@@ -588,11 +606,13 @@
      font-size: 14px;
      line-height: 24px;
 }
- .widget-post span, .widget-post time {
+ .widget-post span,
+ .widget-post time {
      font-size: 12px;
      line-height: 24px;
 }
- .widget-post p, .widget-post h1 {
+ .widget-post p,
+ .widget-post h1 {
      margin: 0;
 }
  .widget-post-image {
@@ -721,7 +741,8 @@
  .sort-of-article {
      margin-right: auto;
 }
- .comments-of-article, .likes-of-article {
+ .comments-of-article,
+ .likes-of-article {
      padding-left: 20px;
      background-repeat: no-repeat;
      background-position: 0 center;
@@ -765,7 +786,9 @@
      margin-top: 5px;
      margin-bottom: 5px;
 }
- .author-options, .author-options::before, .author-options::after {
+ .author-options,
+ .author-options::before,
+ .author-options::after {
      position: absolute;
      right: 30px;
      top: 40%;
@@ -775,7 +798,8 @@
      border-radius: 2px 2px;
      cursor: pointer;
 }
- .author-options::before, .author-options::after {
+ .author-options::before,
+ .author-options::after {
      content: "";
      right: 0;
      top: 7px;
@@ -796,13 +820,15 @@
      color: gray;
      font-size: 14px;
 }
- .column-articles .article-designations, .row-articles .article-designations {
+ .column-articles .article-designations,
+ .row-articles .article-designations {
      margin-left: 10px;
      margin-right: 10px;
      font-size: 10px;
      cursor: pointer;
 }
- .column-articles .play-button, .row-articles .play-button {
+ .column-articles .play-button,
+ .row-articles .play-button {
      position: absolute;
      width: 35px;
      height: 35px;
@@ -818,12 +844,14 @@
      width: 600px;
      background-color: #ffffff;
 }
- .article-wraper h1, .article-wraper p {
+ .article-wraper h1,
+ .article-wraper p {
      padding: 0;
      margin: 0;
      font-size: 14px;
 }
- .row-articles, .row-articles-2 {
+ .row-articles,
+ .row-articles-2 {
      display: flex;
      margin-bottom: 20px;
      justify-content: space-between;
@@ -834,7 +862,9 @@
  .row-articles .author-image {
      margin-right: 10px;
 }
- .row-articles .author-options, .row-articles .author-options::before, .row-articles .author-options::after {
+ .row-articles .author-options,
+ .row-articles .author-options::before,
+ .row-articles .author-options::after {
      position: absolute;
      right: 15px;
      top: 40%;
@@ -844,7 +874,8 @@
      border-radius: 2px 2px;
      cursor: pointer;
 }
- .row-articles .author-options::before, .row-articles .author-options::after {
+ .row-articles .author-options::before,
+ .row-articles .author-options::after {
      content: "";
      right: 0;
      top: 7px;
@@ -861,7 +892,8 @@
  .row-articles-2 .row-articles-item {
      width: 400px;
 }
- .row-articles h1, .row-articles p {
+ .row-articles h1,
+ .row-articles p {
      padding: 0;
      margin: 0;
      margin-bottom: auto;
@@ -932,7 +964,8 @@
      color: #ffffff;
      margin: 0;
 }
- .subscribe input, .subscribe button {
+ .subscribe input,
+ .subscribe button {
      margin: 0;
      min-height: 45px;
      border-radius: 20px 20px;
@@ -982,7 +1015,10 @@
  .widgets h2 {
      text-transform: uppercase;
 }
- .pages-widget, .twitter-widget, .widget-wraper {
+ .pages-widget,
+ .twitter-widget,
+ .widget-wraper,
+ .social-widget {
      display: flex;
      flex-direction: column;
      align-content: flex-start;
@@ -1021,7 +1057,8 @@
      color: white;
      margin-left: 15px;
 }
- .widget-control, .widget-control::before {
+ .widget-control,
+ .widget-control::before {
      position: absolute;
      top: 26px;
      right: 15px;
@@ -1040,6 +1077,119 @@
  .pages-widget .pages-item:nth-child(3) .widget-control::before {
      display: none;
 }
+ .tweetter-widget{
+     margin-bottom: 30px;
+}
+ .tweet {
+     padding-bottom: 10px;
+     border-bottom: 1px solid gray;
+}
+ .tweet h3{
+     padding-left: 30px;
+     background-image: url("../img/index/tw-widget-logo.png");
+     background-repeat: no-repeat;
+     background-position: left;
+     font-size: 14px;
+     line-height: 21px;
+     color: white;
+     opacity: 0.7;
+}
+ .pasco-tw {
+     font-size: 14px;
+     line-height: 21px;
+     color: white;
+}
+ .tweet-wraper {
+     display: flex;
+}
+ .time-ago {
+     display: flex;
+     flex-wrap: nowrap;
+     font-size: 12px;
+     color: white;
+     opacity: 0.7;
+}
+ .time-ago span{
+     font-size: 14px;
+     margin-right: 7px;
+}
+ .time-ago time {
+     margin-right: 7px;
+}
+ .tweetter-links {
+     display: flex;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+ .tweetter-links li a {
+     color: gray;
+     text-decoration: underline;
+}
+ .tweetter-links li {
+     margin-right: 10px;
+}
+ .tweetter-links li:last-child {
+     margin-right: 0;
+}
+ .social-widget .social-subscribe{
+     justify-content: space-between;
+}
+ .social-widget h2 {
+     margin-bottom: 0;
+}
+ .news-letter-form input,
+ .news-letter-form textarea {
+     border: 1px solid gray;
+     background-color: transparent;
+     color: white;
+     opacity: 0.7;
+     margin-top: 0;
+     margin-bottom: 5px;
+}
+ .news-letter-form button {
+     background-color: #303030;
+     margin-bottom: 0;
+}
+ .news-letter-form input[type=text]::-webkit-input-placeholder {
+     color: white;
+     opacity: 0.5;
+}
+ .news-letter-form input[type=text]::-moz-placeholder {
+     color: white;
+     opacity: 0.5;
+     padding: 0;
+     margin: 0;
+}
+/* Firefox 19+ */
+ .news-letter-form input[type=text]:-moz-placeholder {
+     color: white;
+     opacity: 0.5;
+}
+/* Firefox 18- */
+ .news-letter-form input[type=text]:-ms-input-placeholder {
+     color: white;
+     opacity: 0.5;
+}
+ .news-letter-form textarea[name="subject"]::-webkit-input-placeholder {
+     color: white;
+     opacity: 0.5;
+
+}
+ .news-letter-form textarea[name="subject"]::-moz-placeholder {
+     color: white;
+     opacity: 0.5;
+}
+/* Firefox 19+ */
+ .news-letter-form textarea[name="subject"]:-moz-placeholder {
+     color: white;
+     opacity: 0.5;
+}
+/* Firefox 18- */
+ .news-letter-form textarea[name="subject"]:-ms-input-placeholder {
+     color: white;
+     opacity: 0.5;
+}
  .footer-bottom {
      display: flex;
      min-height: 80px;
@@ -1052,9 +1202,50 @@
      margin: 0;
 }
  .footer-nav ul li {
-     margin-right: 10px;
+     margin-right: 40px;
+}
+ .footer-nav li a {
+     color:white;
+     font-size: 12px;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+ .footer-search {
+     border: 1px solid gray;
+     border-radius: 25px;
+}
+ .footer-search input[type=text] {
+     background-color: transparent;
+     color: white;
+     opacity: 0.5;
+}
+ .footer-search button[type=submit] {
+     background-color: transparent;
+     opacity: 0.3;
+}
+ .footer-search input[type=text]::-webkit-input-placeholder {
+     color: white;
+     opacity: 0.5;
+}
+ .footer-search input[type=text]::-moz-placeholder {
+     color: white;
+     opacity: 0.5;
+     line-height: 45px;
+}
+/* Firefox 19+ */
+ .footer-search input[type=text]:-moz-placeholder {
+     color: white;
+     opacity: 0.5;
+     line-height: 45px;
+}
+/* Firefox 18- */
+ .footer-search input[type=text]:-ms-input-placeholder {
+     color: white;
+     opacity: 0.5;
+}
+ .lang-header {
+     color: gray;
 }
  .lang-content {
      display: none;
 }
- 
